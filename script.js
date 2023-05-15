@@ -1,9 +1,9 @@
 
   var data = {
-    labels: ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5', 'Day 6', 'Day 7', 'Day 8', 'Day 9', 'Day 10'],
+    labels: ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5', 'Day 6', 'Day 7', 'Day 8', 'Day 9', 'Day 10','Day 11', 'Day 12', 'Day 13', 'Day 14', 'Day 15', 'Day 16', 'Day 17', 'Day 18', 'Day 19', 'Day 20','Day 21', 'Day 22', 'Day 23', 'Day 24', 'Day 25', 'Day 26', 'Day 27', 'Day 28', 'Day 29', 'Day 30'],
     datasets: [{
       label: 'Productivity Rate',
-      data: [70, 80, 75, 90, 85, 95, 80, 90, 75, 80],
+      data: [70, 80, 75, 90, 85, 95, 80, 90, 75, 80, 95, 80, 90, 75, 80, 90, 85, 95, 80, 90, 77, 82, 78, 84, 90, 81, 79, 70, 75, 85],
       borderColor: '#36a2eb',
       borderWidth: 2,
       fill: true,
