@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Graph</title>
+    <style>
+      #chartContainer {
+        width: 800px;
+        height: 400px;
+        margin: 0 auto;
+      }
+      #chart {
+        width: 100%;
+        height: 100%;
+      }
+      .tooltip {
+        position: absolute;
+        display: none;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="chartContainer">
+      <canvas id="chart"></canvas>
+      <div class="tooltip"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/script.js"></script>
+  </body>
+</html>
